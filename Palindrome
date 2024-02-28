@@ -1,0 +1,15 @@
+class Palindrome{
+public static void main(String[] args){
+int s = 141, temp, r, sum =0;
+temp = s;
+r = temp%10;
+sum = (sum*10)+r;
+temp = temp/10;
+if(sum==s){
+System.out.print("Palindrome")
+}
+else{
+System.out.print("Not Palindrome")
+}
+}
+}
