@@ -1,0 +1,19 @@
+import java.util.*;
+class A{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        char c = sc.next().charAt(0);
+        if(c=='A'){
+        System.out.println("int:"+(int)c);
+        System.out.println("float:"+(float)c);
+        System.out.println("byte:"+(byte)c);
+        System.out.println("short:"+(short)c);
+        }
+        else{
+            System.out.print("Invalid");
+        }
+        
+    }
+    
+}
+
